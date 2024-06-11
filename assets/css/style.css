@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  background-color: #f2ebe3;
+  height: 120vh;
+}
+header {
+  position: sticky;
+  top: 0;
+}
+nav {
+  background-color: #333333;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.back--green {
+  background-color: #05aa6d;
+  display: inline-block;
+  padding: 15px;
+}
+.back--black {
+  display: inline-block;
+  padding: 15px;
+}
+.back--black:hover {
+  background-color: #b79a9b;
+}
+.section {
+  display: inline-block;
+}
+.backGround {
+  display: flex;
+  background-color: #fff;
+  margin: 10px;
+  width: 70%;
+  height: 500px;
+  border-radius: 15px;
+}
+.img {
+  background-image: url("https://task-omega-mocha.vercel.app/images/image-product-desktop.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.content {
+  width: 100%;
+  height: 100%;
+  margin: 150px 50px;
+}
+.info {
+  color: grey;
+}
+h2 {
+  color: #3c8167;
+
+  font-size: 45px;
+  display: inline-block;
+}
+.buy {
+  opacity: 55%;
+  margin-bottom: 60px;
+  text-decoration: line-through;
+}
+
+button {
+  display: flex;
+  background-color: #3c8167;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 600;
+  padding: 15px 100px;
+  border: none;
+}
+.UP {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  right: 5px;
+  bottom: 5px;
+  padding: 0;
+  background-color: blue;
+  color: wheat;
+  position: fixed;
+  display: inline-block;
+}
+.UP::before {
+  content: "";
+  border-radius: 100%;
+  background-color: red;
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
